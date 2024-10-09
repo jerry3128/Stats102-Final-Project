@@ -20,6 +20,12 @@ H.~L. Bodlaender and T.~Kloks.
   Automata, Languages and Programming}, pages 544--555, Berlin, Heidelberg,
   1991. Springer Berlin Heidelberg.
 
+\bibitem{ASP2008}
+S.~Gutin, G.~Szeider.
+\newblock Parameterized and exact computation: 8th international symposium.
+\newblock In M.~G.~R. Niedermeier, editor, {\em Automata, Languages and
+  Programming}. Springer Berlin Heidelberg, 2013.
+
 \bibitem{FasterTD2019}
 K.~Kangas, M.~Koivisto, and S.~Salonen.
 \newblock {A Faster Tree-Decomposition Based Algorithm for Counting Linear

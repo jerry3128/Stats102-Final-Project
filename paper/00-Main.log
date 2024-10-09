@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.8)  9 OCT 2024 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.8)  9 OCT 2024 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -480,31 +480,39 @@ Underfull \hbox (badness 2435) in paragraph at lines 20--21
 []$\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 u \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 V$\OT1/ptm/m/n/9.53561 , The sub-tree of $\OML/cmm/m/it/10 T$ \OT1/ptm/m/n/9.53561 con-sist-ing of all
  []
 
-) (06-Conclusion.tex [1{C:/Users/jerry/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/jerry/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+
+Underfull \hbox (badness 4556) in paragraph at lines 39--40
+[]\OT1/ptm/m/n/9.53561 Hence, we may se-lect the fea-tures from the tree-
+ []
+
+) (05-DataGen.tex [1{C:/Users/jerry/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/jerry/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-]) (00-Main.bbl) [2
+]
+Underfull \hbox (badness 1742) in paragraph at lines 19--20
+[]\OT1/ptm/m/n/9.53561 To solve the 3-colorability on a graph with its tree-
+ []
 
-] (00-Main.aux)
+) (06-MachineLearning.tex) (07-Conclusion.tex) (00-Main.bbl) [2] (00-Main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `00-Main.out' has not changed.
-(rerunfilecheck)             Checksum: FE34351A3AFA2D2CB56407C14F8EE9C5;1060.
+(rerunfilecheck)             Checksum: 133782E80D3B099DEB53C61F43AC8FAA;1968.
  ) 
 Here is how much of TeX's memory you used:
- 11736 strings out of 474486
- 191702 string characters out of 5743756
- 1949542 words of memory out of 5000000
- 33790 multiletter control sequences out of 15000+600000
+ 11778 strings out of 474486
+ 192411 string characters out of 5743756
+ 1948542 words of memory out of 5000000
+ 33810 multiletter control sequences out of 15000+600000
  619711 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,1109b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,695b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/jerry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jerry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jerry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jerry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jerry/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jerry/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/jerry/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/jerry/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/jerry/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/jerry/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on 00-Main.pdf (2 pages, 125665 bytes).
+Output written on 00-Main.pdf (2 pages, 135559 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
