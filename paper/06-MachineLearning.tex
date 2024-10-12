@@ -20,22 +20,28 @@ Here is the features we may use:
 
 After training, we use cross validation to validate each model and select the polynomial linear regression.
 
-We select 2 best models to participate in the final test.
+We select the best models to participate in the final test.
 
-Model 1. For each tree width, we use Linear-Regression to predict the runtime.
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.24\textwidth]{model_polyLR.png}
-    \caption{straight polynomial linear regression for run time}
-    \label{straight polynomial linear regression for run time}
-    \end{figure}
-
-Model 2. For each tree width, we use Linear-Regression to predict the logarithmic runtime.
+Model: For each tree width, we use Linear-Regression to predict the runtime.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.24\textwidth]{model_lnpolyLR.png}
-    \caption{polynomial linear regression for logarithmic runtime}
-    \label{polynomial linear regression for logarithmic runtime}
+    \includegraphics[width=0.36\textwidth]{model_polyLR.png}
+    \caption{separate tree-width, straight polynomial linear regression for run time}
+    \label{separate tree-width, straight polynomial linear regression for run time}
     \end{figure}
+
+Also we compare this model with the other models by the square of the difference between the predictions and real value, and we call this.
+
+The models for the ln of run time all has sum of square of difference over $10^{6}$, while straightly linear regression the run time only over $10^{5}$.
+
+Then, we see that, if we combine all data, the model shows obvious inaccurate in the area that tree width is little.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.36\textwidth]{no_separate_treewidth.png}
+    \caption{combine tree-width, straight polynomial linear regression for run time}
+    \label{combine tree-width, straight polynomial linear regression for run time}
+    \end{figure}
+
+Thus we may choose the separate tree width model as the predictor.
